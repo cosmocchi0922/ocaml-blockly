@@ -418,6 +418,7 @@ Blockly.Msg.MATH_ARITHMETIC_TOOLTIP_MINUS = 'Return the difference of the two nu
 Blockly.Msg.MATH_ARITHMETIC_TOOLTIP_MULTIPLY = 'Return the product of the two numbers.';
 /// tooltip - See [https://en.wikipedia.org/wiki/Division_(mathematics) https://en.wikipedia.org/wiki/Division_(mathematics)].
 Blockly.Msg.MATH_ARITHMETIC_TOOLTIP_DIVIDE = 'Return the quotient of the two numbers.';
+Blockly.Msg.MATH_ARITHMETIC_TOOLTIP_MOD = 'Return the remainder of the two numbers.';
 /// tooltip - See [https://en.wikipedia.org/wiki/Exponentiation https://en.wikipedia.org/wiki/Exponentiation].
 Blockly.Msg.MATH_ARITHMETIC_TOOLTIP_POWER = 'Return the first number raised to the power of the second number.';
 
@@ -1209,3 +1210,23 @@ Blockly.Msg.PROCEDURES_IFRETURN_WARNING = 'Warning: This block may be used only 
 /// comment text - This text appears in a new workspace comment, to hint that
 /// the user can type here.
 Blockly.Msg.WORKSPACE_COMMENT_DEFAULT_TEXT = 'Say something...';
+
+/// context menu - Add 'rec' to a let block
+Blockly.Msg.ADD_REC = 'Add rec';
+/// context menu - Remove 'rec' from a let block
+Blockly.Msg.REMOVE_REC = 'Remove rec';
+
+/// context menu - Add 'in' to a let block
+Blockly.Msg.ADD_IN = 'Add in';
+/// context menu - Remove 'in' from a let block
+Blockly.Msg.REMOVE_IN = 'Remove in';
+
+/// tooltip
+Blockly.Msg.DEFINE_RECORD_TOOLTIP = 'Declare a record type';
+Blockly.Msg.DEFINE_VARIABLE_TOOLTIP = 'Define a variable';
+Blockly.Msg.DEFINE_LET_REC_TOOLTIP = 'Define a recursive function';
+Blockly.Msg.DEFINE_LET_IN_TOOLTIP = 'Define a function';
+Blockly.Msg.PAIR_GET_FIRST_TOOLTIP = 'Get the first element of a pair';
+Blockly.Msg.PAIR_GET_SECOND_TOOLTIP = 'Get the second element of a pair';
+Blockly.Msg.MATH_FLOAT_OF_INT = 'Convert integer to float';
+Blockly.Msg.INT_OF_STRING_TOOLTIP = 'change string to int.';
